@@ -189,7 +189,6 @@ if __name__ == '__main__':
 
     # Player enters text file path + index
     file_path = input("Please enter text file path: ")
-    file_path = r"C:\Users\Zoey\hangmanWords.txt"
 
     # Count the unique words in the file
     with open(file_path, 'r') as file:
